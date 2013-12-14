@@ -1,0 +1,5 @@
+Converts Excel-style column letters into numbers, e.g.:
+A = 1
+Z = 26
+AH = 34
+XFD = 16384
