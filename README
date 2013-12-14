@@ -3,3 +3,5 @@ A = 1
 Z = 26
 AH = 34
 XFD = 16384
+
+Usage: colconv.c letters
