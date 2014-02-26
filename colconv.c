@@ -11,7 +11,6 @@ int main(int argc, char *argv[]) {
     for (i = 0; i < strlen(argv[1]); i++) {
 	total *= LETTERS_IN_ALPHABET;
 	int val = argv[1][i];
-	int offset;
 	if (val > (OFFSET_UPPERCASE) && val <= (OFFSET_UPPERCASE + LETTERS_IN_ALPHABET)) {
 	    /* uppercase */
 	    total += (val - OFFSET_UPPERCASE);
