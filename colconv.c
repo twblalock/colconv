@@ -12,10 +12,8 @@ int main(int argc, char *argv[]) {
 	total *= LETTERS_IN_ALPHABET;
 	int val = argv[1][i];
 	if (val > (OFFSET_UPPERCASE) && val <= (OFFSET_UPPERCASE + LETTERS_IN_ALPHABET)) {
-	    /* uppercase */
 	    total += (val - OFFSET_UPPERCASE);
 	} else if (val > (OFFSET_LOWERCASE) && val <= (OFFSET_LOWERCASE + LETTERS_IN_ALPHABET)) {
-	    /* lowercase */
 	    total += (val - OFFSET_LOWERCASE);
 	} else {
 	    printf("invalid value: %d\n", val);
